@@ -8,7 +8,7 @@ public enum Sound
     Size,
 }
 
-public class ShoundManager : MonoBehaviour
+public class SoundManager : MonoBehaviour
 {
     AudioSource[] _audioSources = new AudioSource[(int)Sound.Size];
     Dictionary<string, AudioClip> _audioClips = new Dictionary<string, AudioClip>();
